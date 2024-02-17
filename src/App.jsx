@@ -7,6 +7,8 @@ import Students from "./Components/Students"
 import UserGreeting from "./Components/UserGreeting"
 import List from "./Components/List"
 import Button2 from "./Components/Button2"
+import ProfilePic from "./Components/ProfilePic"
+import Counter from "./Components/Counter"
 
 function App() {
 
@@ -47,6 +49,8 @@ function App() {
       {vegetables.length > 0 && <List items={vegetables} category = 'Vegetables'/>}
 
       <Button2 />
+      <ProfilePic />
+      <Counter />
     </>
   )
 }

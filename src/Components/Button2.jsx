@@ -20,12 +20,15 @@ const Button2 = () => {
         }
     }
     
+    const handleClick4 = (e) => e.target.textContent = 'OUCH! 😒';
+
 
   return (
     <>
         <button onClick={handleClick}> Click Me 🙃</button>
         <button onClick={() => handleClick2('Rem')}> Click Me 🙃</button>
         <button onClick={() => handleClick3('Mary')}> Click Me 🙃</button>
+        <button onDoubleClick={(e) => handleClick4(e)}> Click Me 🙃</button>
     </>
   )
 }
