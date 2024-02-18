@@ -1,22 +1,26 @@
-import { useState } from "react";
-const Counter = () => {
-    const[name, setName] = useState('Guest');
-    const[age, setAge] = useState(0);
+import { useState } from "react"
 
-const updateName = ()=> {
-    setName('SpongeBob');
+const Counter = () => {
+    const [count, setCount] = useState(0);
+
+const increment = () => {
+    setCount(count + 1);
 }
 
-const incrementAge = () => {
-    setAge(age + 1)
+const decrement = () => {
+    setCount(count - 1);
+}
+
+const reset = () => {
+    setCount(0);
 }
 
   return (
     <div>
-        <p>Name: {name}</p>
-        <button onClick={updateName}>Set Name</button>
-        <p>Age: {age}</p>
-        <button onClick={incrementAge}>Set Age</button>
+        <h1>{count}</h1>
+        <button onClick={increment}>Increase</button>
+        <button onClick={reset}>Reset</button>
+        <button onClick={decrement}>Decrease</button>
     </div>
   )
 }

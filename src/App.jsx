@@ -9,6 +9,8 @@ import List from "./Components/List"
 import Button2 from "./Components/Button2"
 import ProfilePic from "./Components/ProfilePic"
 import Counter from "./Components/Counter"
+import UseStateDemo from "./Components/UseStateDemo"
+import OnChange from "./Components/OnChange"
 
 function App() {
 
@@ -50,7 +52,9 @@ function App() {
 
       <Button2 />
       <ProfilePic />
+      <UseStateDemo />
       <Counter />
+      <OnChange />
     </>
   )
 }
