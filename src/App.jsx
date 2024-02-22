@@ -11,6 +11,7 @@ import ProfilePic from "./Components/ProfilePic"
 import Counter from "./Components/Counter"
 import UseStateDemo from "./Components/UseStateDemo"
 import OnChange from "./Components/OnChange"
+import ColorPicker from "./Components/ColorPicker"
 
 function App() {
 
@@ -55,6 +56,7 @@ function App() {
       <UseStateDemo />
       <Counter />
       <OnChange />
+      <ColorPicker />
     </>
   )
 }
