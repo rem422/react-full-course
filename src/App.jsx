@@ -12,6 +12,9 @@ import Counter from "./Components/Counter"
 import UseStateDemo from "./Components/UseStateDemo"
 import OnChange from "./Components/OnChange"
 import ColorPicker from "./Components/ColorPicker"
+import Updater_Function from "./Components/Updater_Function.jsx";
+import UpdateObjectInState from "./Components/UpdateObjectInState.jsx"
+import UpdateStateOfAnArray from "./Components/UpdateStateOfAnArray.jsx"
 
 function App() {
 
@@ -57,6 +60,9 @@ function App() {
       <Counter />
       <OnChange />
       <ColorPicker />
+      <Updater_Function />
+      <UpdateObjectInState />
+      <UpdateStateOfAnArray />
     </>
   )
 }
