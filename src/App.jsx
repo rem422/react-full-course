@@ -15,6 +15,9 @@ import ColorPicker from "./Components/ColorPicker"
 import Updater_Function from "./Components/Updater_Function.jsx";
 import UpdateObjectInState from "./Components/UpdateObjectInState.jsx"
 import UpdateStateOfAnArray from "./Components/UpdateStateOfAnArray.jsx"
+import UpdateArrayOfObjectsInState from "./Components/UpdateArrayOfObjectsInState.jsx"
+import To_do_list from "./Components/To_do_list.jsx"
+import UseEffectHook from "./Components/UseEffectHook.jsx"
 
 function App() {
 
@@ -63,6 +66,9 @@ function App() {
       <Updater_Function />
       <UpdateObjectInState />
       <UpdateStateOfAnArray />
+      <UpdateArrayOfObjectsInState />
+      <To_do_list />
+      <UseEffectHook />
     </>
   )
 }
