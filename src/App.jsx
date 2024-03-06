@@ -17,6 +17,8 @@ import UpdateObjectInState from "./Components/UpdateObjectInState.jsx"
 import UpdateStateOfAnArray from "./Components/UpdateStateOfAnArray.jsx"
 import UpdateArrayOfObjectsInState from "./Components/UpdateArrayOfObjectsInState.jsx"
 import UseEffectHook from "./Components/UseEffectHook.jsx"
+import ComponentA from "./Components/ComponentA.jsx"
+import UseRef from "./Components/UseRef.jsx"
 
 function App() {
 
@@ -67,6 +69,8 @@ function App() {
       <UpdateStateOfAnArray />
       <UpdateArrayOfObjectsInState />
       <UseEffectHook />
+      <ComponentA />
+      <UseRef />
     </>
   )
 }
